@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 1s ease-in-out;
+}
+
+.quote-text {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.author-text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.my-card-style {
+  margin: auto;
+}
+
+.card {
+  word-wrap: normal;
+}
+
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .author-text {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: right;
+  }
+}
